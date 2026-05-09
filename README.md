@@ -591,6 +591,12 @@ The following local skills were published from ~/.hermes/skills.
 
 ### Software Development
 
+- **atlas-tx-twdb-hydrology** — Refresh and use Atlas TX TWDB hydrology context layers (major aquifers, river basins, HUC8), including the bbox-based cache format, refresh script, and county-summary wiring.
+
+  ```
+  npx skills@latest add mattpocock/skills/atlas-tx-twdb-hydrology
+  ```
+
 - **publish-local-skills-to-wiki** — Copy newly created local Hermes skills into the shared skills wiki repo and update the wiki README index. Use when the user wants to publ...
 
   ```

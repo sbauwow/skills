@@ -591,6 +591,12 @@ The following local skills were published from ~/.hermes/skills.
 
 ### Software Development
 
+- **android-deodex-systemless-patch** — Patch an odex-era Android framework (Nougat and earlier) on an owned device: deodex services.odex against the boot classpath, edit smali, rebuild, compile the odex on-device, deploy as a systemless Magisk module.
+
+  ```
+  npx skills@latest add mattpocock/skills/android-deodex-systemless-patch
+  ```
+
 - **atlas-tx-twdb-hydrology** — Refresh and use Atlas TX TWDB hydrology context layers (major aquifers, river basins, HUC8), including the bbox-based cache format, refresh script, and county-summary wiring.
 
   ```
